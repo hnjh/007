@@ -1,0 +1,15 @@
+digraph hnjh {
+fontname="Microsoft YaHei"
+edge [fontname="Microsoft YaHei"];
+node [shape=box, fontname="Microsoft YaHei"];
+
+zb [style="filled", color="black", fillcolor="chartreuse", label="总部 "];
+fgs [label="分公司 "];
+dl [label="代理 "];
+hy [label="会员 "];
+
+zb -> fgs;
+fgs -> dl;
+dl -> hy;
+
+}
